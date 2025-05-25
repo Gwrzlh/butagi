@@ -1,6 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * @property Guest_model $Guest_model
+ * @property User_model $User_model
+ * @property CI_Input $input
+ * @property CI_Session $session
+ * @property CI_Loader $load
+ */
+
 class GuestController extends CI_Controller {
     public function __construct() {
         parent::__construct();
