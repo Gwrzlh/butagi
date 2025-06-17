@@ -64,3 +64,6 @@ $route['superadmin/kelola_ruangan'] = 'superadmin/kelola_ruangan';
 
 $route['admin/export/pdf'] = 'AdminController/export_guests_pdf';
 
+//chatbot route
+$route['chatbot/test']= 'chatbotController/index';
+
